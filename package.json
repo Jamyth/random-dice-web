@@ -1,0 +1,30 @@
+{
+    "name": "random-dice",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "license": "MIT",
+    "scripts": {
+        "run-script": "ts-node --project config/tsconfig.script.json",
+        "format": "yarn run-script script/format.ts",
+        "lint": "yarn run-script script/lint.ts",
+        "build": "yarn run-script script/build.ts",
+        "module": "coil-react",
+        "start": "yarn run-script script/start.ts"
+    },
+    "dependencies": {
+        "coil-react": "1.1.15",
+        "jamyth-web-util": "1.0.4"
+    },
+    "devDependencies": {
+        "@iamyth/logger": "1.0.4",
+        "@iamyth/prettier-config": "0.0.1",
+        "@iamyth/webpack-runner": "1.3.2",
+        "@types/node": "16.9.2",
+        "coil-react-cli": "1.0.2",
+        "eslint": "7.32.0",
+        "eslint-config-iamyth": "0.0.9",
+        "prettier": "2.4.1",
+        "ts-node": "10.2.1",
+        "typescript": "4.4.3"
+    }
+}
